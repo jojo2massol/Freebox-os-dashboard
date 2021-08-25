@@ -1,0 +1,4647 @@
+[
+    {
+        "id": "902ff135d5a095e1",
+        "type": "tab",
+        "label": "Token",
+        "disabled": false,
+        "info": ""
+    },
+    {
+        "id": "a838eb2cf0ea046c",
+        "type": "tab",
+        "label": "courbes",
+        "disabled": false,
+        "info": ""
+    },
+    {
+        "id": "62ab2e54e9993ac0",
+        "type": "tab",
+        "label": "infos",
+        "disabled": false,
+        "info": ""
+    },
+    {
+        "id": "3eb6e4b99502d2ee",
+        "type": "tab",
+        "label": "connection",
+        "disabled": false,
+        "info": ""
+    },
+    {
+        "id": "2e9cc71ef5c75b73",
+        "type": "tab",
+        "label": "xDSL",
+        "disabled": false,
+        "info": ""
+    },
+    {
+        "id": "64de7ca89bd91501",
+        "type": "tab",
+        "label": "DHCP",
+        "disabled": false,
+        "info": ""
+    },
+    {
+        "id": "4439d6510d32de5f",
+        "type": "tab",
+        "label": "redémarrer",
+        "disabled": false,
+        "info": ""
+    },
+    {
+        "id": "5c0ab36281749b90",
+        "type": "ui_tab",
+        "name": "Home",
+        "icon": "network_check",
+        "order": 1,
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "55e00e83dd786dcd",
+        "type": "ui_base",
+        "theme": {
+            "name": "theme-dark",
+            "lightTheme": {
+                "default": "#0094CE",
+                "baseColor": "#0094CE",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+                "edited": true,
+                "reset": false
+            },
+            "darkTheme": {
+                "default": "#097479",
+                "baseColor": "#06709d",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+                "edited": true,
+                "reset": false
+            },
+            "customTheme": {
+                "name": "Untitled Theme 1",
+                "default": "#4B7930",
+                "baseColor": "#4B7930",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif"
+            },
+            "themeState": {
+                "base-color": {
+                    "default": "#097479",
+                    "value": "#06709d",
+                    "edited": true
+                },
+                "page-titlebar-backgroundColor": {
+                    "value": "#06709d",
+                    "edited": false
+                },
+                "page-backgroundColor": {
+                    "value": "#111111",
+                    "edited": false
+                },
+                "page-sidebar-backgroundColor": {
+                    "value": "#333333",
+                    "edited": false
+                },
+                "group-textColor": {
+                    "value": "#09a5e7",
+                    "edited": false
+                },
+                "group-borderColor": {
+                    "value": "#555555",
+                    "edited": false
+                },
+                "group-backgroundColor": {
+                    "value": "#333333",
+                    "edited": false
+                },
+                "widget-textColor": {
+                    "value": "#eeeeee",
+                    "edited": false
+                },
+                "widget-backgroundColor": {
+                    "value": "#06709d",
+                    "edited": false
+                },
+                "widget-borderColor": {
+                    "value": "#333333",
+                    "edited": false
+                },
+                "base-font": {
+                    "value": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif"
+                }
+            },
+            "angularTheme": {
+                "primary": "indigo",
+                "accents": "blue",
+                "warn": "red",
+                "background": "grey",
+                "palette": "light"
+            }
+        },
+        "site": {
+            "name": "Node-RED Dashboard",
+            "hideToolbar": "false",
+            "allowSwipe": "false",
+            "lockMenu": "false",
+            "allowTempTheme": "true",
+            "dateFormat": "DD/MM/YYYY",
+            "sizes": {
+                "sx": 48,
+                "sy": 48,
+                "gx": 6,
+                "gy": 6,
+                "cx": 6,
+                "cy": 6,
+                "px": 0,
+                "py": 0
+            }
+        }
+    },
+    {
+        "id": "4bb454ce062fd819",
+        "type": "ui_group",
+        "name": "Courbes de débit",
+        "tab": "5c0ab36281749b90",
+        "order": 2,
+        "disp": true,
+        "width": "7",
+        "collapse": true
+    },
+    {
+        "id": "26293d9a08da82d7",
+        "type": "ui_tab",
+        "name": "Config",
+        "icon": "settings",
+        "order": 3,
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "fd862af735b45aa1",
+        "type": "ui_group",
+        "name": "New Token",
+        "tab": "26293d9a08da82d7",
+        "order": 2,
+        "disp": true,
+        "width": "6",
+        "collapse": false
+    },
+    {
+        "id": "0a413baa56b6e7b6",
+        "type": "ui_group",
+        "name": "Courbes xDSL",
+        "tab": "5c0ab36281749b90",
+        "order": 3,
+        "disp": true,
+        "width": "7",
+        "collapse": true
+    },
+    {
+        "id": "2075d3b014cdbb5f",
+        "type": "ui_group",
+        "name": "Infos générales",
+        "tab": "5c0ab36281749b90",
+        "order": 4,
+        "disp": true,
+        "width": "7",
+        "collapse": true
+    },
+    {
+        "id": "b1155bbb.d9b25",
+        "type": "ui_group",
+        "name": "Redémarrer",
+        "tab": "5c0ab36281749b90",
+        "order": 5,
+        "disp": true,
+        "width": "7",
+        "collapse": false
+    },
+    {
+        "id": "8641f24d830c936b",
+        "type": "ui_group",
+        "name": "Températures",
+        "tab": "5c0ab36281749b90",
+        "order": 6,
+        "disp": true,
+        "width": "7",
+        "collapse": false
+    },
+    {
+        "id": "3fd0c35cc4fa7663",
+        "type": "ui_group",
+        "name": "DHCP",
+        "tab": "20610ad215e7173d",
+        "order": 1,
+        "disp": true,
+        "width": "7",
+        "collapse": false
+    },
+    {
+        "id": "20610ad215e7173d",
+        "type": "ui_tab",
+        "name": "IP",
+        "icon": "router",
+        "order": 2,
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "d146a53a4305fa82",
+        "type": "ui_group",
+        "name": "IPs",
+        "tab": "20610ad215e7173d",
+        "order": 6,
+        "disp": true,
+        "width": "12",
+        "collapse": false
+    },
+    {
+        "id": "c75b373e6bdd7c45",
+        "type": "ui_group",
+        "name": "Vitesses",
+        "tab": "5c0ab36281749b90",
+        "order": 1,
+        "disp": true,
+        "width": "7",
+        "collapse": false
+    },
+    {
+        "id": "dbb2327e977fbca7",
+        "type": "ui_spacer",
+        "z": "902ff135d5a095e1",
+        "name": "spacer",
+        "group": "8641f24d830c936b",
+        "order": 2,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "4676cb363a2cda75",
+        "type": "ui_group",
+        "name": "Stats xDSL",
+        "tab": "5c0ab36281749b90",
+        "order": 7,
+        "disp": true,
+        "width": "7",
+        "collapse": true
+    },
+    {
+        "id": "cb1dfcde.fd153",
+        "type": "function",
+        "z": "902ff135d5a095e1",
+        "name": "set body",
+        "func": "msg.headers = 'Content-Type:application/json';\nmsg.payload = {\n    \"app_id\": \"nodered.rpi\",\n    \"app_name\": \"Node red\", \n    \"app_version\": \"0.0.1\",\n    \"device_name\": \"Raspberry Pi\"\n};\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 660,
+        "y": 20,
+        "wires": [
+            [
+                "e44209e7.752698"
+            ]
+        ]
+    },
+    {
+        "id": "dcf34aab.218928",
+        "type": "inject",
+        "z": "902ff135d5a095e1",
+        "name": "first connexion",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": "",
+        "topic": "",
+        "payloadType": "date",
+        "x": 470,
+        "y": 20,
+        "wires": [
+            [
+                "cb1dfcde.fd153"
+            ]
+        ]
+    },
+    {
+        "id": "e44209e7.752698",
+        "type": "http request",
+        "z": "902ff135d5a095e1",
+        "name": "post to freebox",
+        "method": "POST",
+        "ret": "obj",
+        "paytoqs": "ignore",
+        "url": "http://mafreebox.freebox.fr/api/v8/login/authorize/",
+        "tls": "",
+        "persist": false,
+        "proxy": "",
+        "authType": "",
+        "x": 820,
+        "y": 20,
+        "wires": [
+            [
+                "c9897172daf23abc",
+                "bbf53c77c70b1ba7"
+            ]
+        ]
+    },
+    {
+        "id": "ee306582.f0dde8",
+        "type": "debug",
+        "z": "902ff135d5a095e1",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1430,
+        "y": 20,
+        "wires": []
+    },
+    {
+        "id": "c92c484a90bbe1f3",
+        "type": "file",
+        "z": "902ff135d5a095e1",
+        "name": "",
+        "filename": "/home/pi/freebox/apitoken.txt",
+        "appendNewline": false,
+        "createDir": true,
+        "overwriteFile": "true",
+        "encoding": "none",
+        "x": 1200,
+        "y": 20,
+        "wires": [
+            [
+                "ee306582.f0dde8"
+            ]
+        ]
+    },
+    {
+        "id": "c9897172daf23abc",
+        "type": "function",
+        "z": "902ff135d5a095e1",
+        "name": "filter token",
+        "func": "msg.payload = msg.payload.result.app_token\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 990,
+        "y": 20,
+        "wires": [
+            [
+                "c92c484a90bbe1f3"
+            ]
+        ]
+    },
+    {
+        "id": "bbf53c77c70b1ba7",
+        "type": "function",
+        "z": "902ff135d5a095e1",
+        "name": "filter track ID",
+        "func": "msg.payload = msg.payload.result.track_id\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 990,
+        "y": 60,
+        "wires": [
+            [
+                "80b053ea9ef93baf"
+            ]
+        ]
+    },
+    {
+        "id": "80b053ea9ef93baf",
+        "type": "file",
+        "z": "902ff135d5a095e1",
+        "name": "",
+        "filename": "/home/pi/freebox/apitrackid.txt",
+        "appendNewline": false,
+        "createDir": true,
+        "overwriteFile": "true",
+        "encoding": "none",
+        "x": 1210,
+        "y": 60,
+        "wires": [
+            [
+                "4be31c44de82f461"
+            ]
+        ]
+    },
+    {
+        "id": "4a055755d6b2eaa8",
+        "type": "catch",
+        "z": "902ff135d5a095e1",
+        "name": "no apitoken",
+        "scope": [
+            "402b8b42a7d64b59",
+            "0ad7876a2452d618"
+        ],
+        "uncaught": false,
+        "x": 650,
+        "y": 360,
+        "wires": [
+            [
+                "f45c1da4d0d85d32",
+                "ce941eb03383db62"
+            ]
+        ]
+    },
+    {
+        "id": "b0ac3d7152bf203b",
+        "type": "inject",
+        "z": "902ff135d5a095e1",
+        "name": "check track id",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payloadType": "date",
+        "x": 110,
+        "y": 280,
+        "wires": [
+            [
+                "402b8b42a7d64b59"
+            ]
+        ]
+    },
+    {
+        "id": "b553624c9c8361f9",
+        "type": "http request",
+        "z": "902ff135d5a095e1",
+        "name": "get status from freebox",
+        "method": "GET",
+        "ret": "obj",
+        "paytoqs": "body",
+        "url": "http://mafreebox.freebox.fr/api/v8/login/authorize/{{{payload}}}",
+        "tls": "",
+        "persist": false,
+        "proxy": "",
+        "authType": "",
+        "x": 620,
+        "y": 280,
+        "wires": [
+            [
+                "45452887c22a5c04"
+            ]
+        ]
+    },
+    {
+        "id": "402b8b42a7d64b59",
+        "type": "file in",
+        "z": "902ff135d5a095e1",
+        "name": "",
+        "filename": "/home/pi/freebox/apitrackid.txt",
+        "format": "utf8",
+        "chunk": false,
+        "sendError": false,
+        "encoding": "none",
+        "allProps": false,
+        "x": 370,
+        "y": 280,
+        "wires": [
+            [
+                "b553624c9c8361f9"
+            ]
+        ]
+    },
+    {
+        "id": "633e6fb0771043fb",
+        "type": "debug",
+        "z": "902ff135d5a095e1",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 990,
+        "y": 240,
+        "wires": []
+    },
+    {
+        "id": "c50e0e24267eff7f",
+        "type": "switch",
+        "z": "902ff135d5a095e1",
+        "name": "",
+        "property": "payload",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "pending",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "granted",
+                "vt": "str"
+            },
+            {
+                "t": "else"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 3,
+        "x": 1010,
+        "y": 300,
+        "wires": [
+            [
+                "cee26c66fd145480",
+                "783e6dceb348d90c"
+            ],
+            [
+                "8c45e471876aea13"
+            ],
+            [
+                "132d24b15421b896",
+                "e29d311342a7f748"
+            ]
+        ]
+    },
+    {
+        "id": "79af2bd7ba47fac0",
+        "type": "exec",
+        "z": "902ff135d5a095e1",
+        "command": "rm /home/pi/freebox/*",
+        "addpay": "",
+        "append": "",
+        "useSpawn": "false",
+        "timer": "",
+        "winHide": false,
+        "oldrc": false,
+        "name": "",
+        "x": 300,
+        "y": 180,
+        "wires": [
+            [
+                "9147000e98cadfa4",
+                "528840ad0e284cc4"
+            ],
+            [],
+            []
+        ]
+    },
+    {
+        "id": "5383067cddb63321",
+        "type": "inject",
+        "z": "902ff135d5a095e1",
+        "name": "delete key",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payloadType": "date",
+        "x": 100,
+        "y": 180,
+        "wires": [
+            [
+                "79af2bd7ba47fac0"
+            ]
+        ]
+    },
+    {
+        "id": "9147000e98cadfa4",
+        "type": "debug",
+        "z": "902ff135d5a095e1",
+        "name": "token deleted",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "\"token deleted\"",
+        "targetType": "jsonata",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 520,
+        "y": 160,
+        "wires": []
+    },
+    {
+        "id": "cee26c66fd145480",
+        "type": "delay",
+        "z": "902ff135d5a095e1",
+        "name": "",
+        "pauseType": "delay",
+        "timeout": "1",
+        "timeoutUnits": "seconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "allowrate": false,
+        "x": 1200,
+        "y": 260,
+        "wires": [
+            [
+                "4668879010213b1f"
+            ]
+        ]
+    },
+    {
+        "id": "2bd5df3bd28288d0",
+        "type": "link in",
+        "z": "902ff135d5a095e1",
+        "name": "check track ID",
+        "links": [
+            "4668879010213b1f",
+            "4be31c44de82f461",
+            "e1d2f2d6bee9570f"
+        ],
+        "x": 155,
+        "y": 320,
+        "wires": [
+            [
+                "402b8b42a7d64b59"
+            ]
+        ]
+    },
+    {
+        "id": "4668879010213b1f",
+        "type": "link out",
+        "z": "902ff135d5a095e1",
+        "name": "track ID pending",
+        "links": [
+            "2bd5df3bd28288d0"
+        ],
+        "x": 1295,
+        "y": 260,
+        "wires": []
+    },
+    {
+        "id": "0bf097188c7c3e72",
+        "type": "link in",
+        "z": "902ff135d5a095e1",
+        "name": "delete key",
+        "links": [
+            "132d24b15421b896"
+        ],
+        "x": 135,
+        "y": 220,
+        "wires": [
+            [
+                "79af2bd7ba47fac0"
+            ]
+        ]
+    },
+    {
+        "id": "132d24b15421b896",
+        "type": "link out",
+        "z": "902ff135d5a095e1",
+        "name": "track ID timeout",
+        "links": [
+            "0bf097188c7c3e72"
+        ],
+        "x": 1095,
+        "y": 320,
+        "wires": []
+    },
+    {
+        "id": "4be31c44de82f461",
+        "type": "link out",
+        "z": "902ff135d5a095e1",
+        "name": "new key",
+        "links": [
+            "2bd5df3bd28288d0"
+        ],
+        "x": 1375,
+        "y": 60,
+        "wires": []
+    },
+    {
+        "id": "ce941eb03383db62",
+        "type": "debug",
+        "z": "902ff135d5a095e1",
+        "name": "no token",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "\"no token, please go to first connexion\"",
+        "targetType": "jsonata",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 820,
+        "y": 400,
+        "wires": []
+    },
+    {
+        "id": "0ad7876a2452d618",
+        "type": "file in",
+        "z": "902ff135d5a095e1",
+        "name": "",
+        "filename": "/home/pi/freebox/apitoken.txt",
+        "format": "utf8",
+        "chunk": false,
+        "sendError": false,
+        "encoding": "none",
+        "allProps": false,
+        "x": 360,
+        "y": 380,
+        "wires": [
+            [
+                "e1d2f2d6bee9570f"
+            ]
+        ]
+    },
+    {
+        "id": "f77220bbb0a168a6",
+        "type": "inject",
+        "z": "902ff135d5a095e1",
+        "name": "is token existing ?",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": true,
+        "onceDelay": "",
+        "topic": "",
+        "payloadType": "date",
+        "x": 130,
+        "y": 380,
+        "wires": [
+            [
+                "0ad7876a2452d618"
+            ]
+        ]
+    },
+    {
+        "id": "e1d2f2d6bee9570f",
+        "type": "link out",
+        "z": "902ff135d5a095e1",
+        "name": "check track ID",
+        "links": [
+            "2bd5df3bd28288d0"
+        ],
+        "x": 515,
+        "y": 380,
+        "wires": []
+    },
+    {
+        "id": "aa2323fd4a42c8e8",
+        "type": "ui_text",
+        "z": "902ff135d5a095e1",
+        "group": "fd862af735b45aa1",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "status",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "x": 1010,
+        "y": 360,
+        "wires": []
+    },
+    {
+        "id": "f45c1da4d0d85d32",
+        "type": "function",
+        "z": "902ff135d5a095e1",
+        "name": "",
+        "func": "msg.payload = \"No token.\";\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 820,
+        "y": 360,
+        "wires": [
+            [
+                "aa2323fd4a42c8e8"
+            ]
+        ]
+    },
+    {
+        "id": "45452887c22a5c04",
+        "type": "function",
+        "z": "902ff135d5a095e1",
+        "name": "filter status",
+        "func": "msg.payload = msg.payload.result.status\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 810,
+        "y": 280,
+        "wires": [
+            [
+                "c50e0e24267eff7f",
+                "aa2323fd4a42c8e8",
+                "633e6fb0771043fb"
+            ]
+        ]
+    },
+    {
+        "id": "d2dfba58bfe5de5d",
+        "type": "change",
+        "z": "902ff135d5a095e1",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "enabled",
+                "pt": "msg",
+                "to": "false",
+                "tot": "bool"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 280,
+        "y": 60,
+        "wires": [
+            [
+                "3783715ea1d59a7a"
+            ]
+        ]
+    },
+    {
+        "id": "3783715ea1d59a7a",
+        "type": "ui_button",
+        "z": "902ff135d5a095e1",
+        "name": "",
+        "group": "fd862af735b45aa1",
+        "order": 0,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "New Token",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "icon": "",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 470,
+        "y": 60,
+        "wires": [
+            [
+                "cb1dfcde.fd153"
+            ]
+        ]
+    },
+    {
+        "id": "8c45e471876aea13",
+        "type": "link out",
+        "z": "902ff135d5a095e1",
+        "name": "access granted",
+        "links": [
+            "7dae05e4bd94c68b",
+            "433c6746eb7752d1"
+        ],
+        "x": 1155,
+        "y": 300,
+        "wires": []
+    },
+    {
+        "id": "7dae05e4bd94c68b",
+        "type": "link in",
+        "z": "902ff135d5a095e1",
+        "name": "new token disable",
+        "links": [
+            "8c45e471876aea13"
+        ],
+        "x": 155,
+        "y": 60,
+        "wires": [
+            [
+                "d2dfba58bfe5de5d"
+            ]
+        ]
+    },
+    {
+        "id": "2eb2ae5bd5082b40",
+        "type": "inject",
+        "z": "902ff135d5a095e1",
+        "name": "enable button",
+        "props": [
+            {
+                "p": "enabled",
+                "v": "true",
+                "vt": "bool"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "x": 110,
+        "y": 100,
+        "wires": [
+            [
+                "6c15e834a28c52ba"
+            ]
+        ]
+    },
+    {
+        "id": "6c15e834a28c52ba",
+        "type": "change",
+        "z": "902ff135d5a095e1",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "enabled",
+                "pt": "msg",
+                "to": "true",
+                "tot": "bool"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 280,
+        "y": 100,
+        "wires": [
+            [
+                "3783715ea1d59a7a"
+            ]
+        ]
+    },
+    {
+        "id": "783e6dceb348d90c",
+        "type": "debug",
+        "z": "902ff135d5a095e1",
+        "name": "message",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "\"please go to your freebox to accept access\"",
+        "targetType": "jsonata",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1200,
+        "y": 220,
+        "wires": []
+    },
+    {
+        "id": "9cea69b54a4af3db",
+        "type": "http request",
+        "z": "a838eb2cf0ea046c",
+        "name": "post to freebox",
+        "method": "POST",
+        "ret": "obj",
+        "paytoqs": "ignore",
+        "url": "http://mafreebox.freebox.fr/api/v8/rrd/",
+        "tls": "",
+        "persist": false,
+        "proxy": "",
+        "authType": "",
+        "x": 420,
+        "y": 60,
+        "wires": [
+            [
+                "1e2fd79fc6885391",
+                "15704d664090d57d"
+            ]
+        ]
+    },
+    {
+        "id": "1e2fd79fc6885391",
+        "type": "debug",
+        "z": "a838eb2cf0ea046c",
+        "name": "",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload.success",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 640,
+        "y": 20,
+        "wires": []
+    },
+    {
+        "id": "8ea889226277e7e7",
+        "type": "function",
+        "z": "a838eb2cf0ea046c",
+        "name": "\"db\": \"net\"",
+        "func": "msg.headers = {\n    'Content-Type':'application/json'\n    \n};\nmsg.headers['X-Fbx-App-Auth'] = global.get(\"session_token\");\n\nmsg.payload = {\n   \"db\": \"net\",\n   //\"fields\": [ \"temp1\" ],\n   \"precision\": 8\n};\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 240,
+        "y": 60,
+        "wires": [
+            [
+                "9cea69b54a4af3db",
+                "503c2e051c9e9f50"
+            ]
+        ]
+    },
+    {
+        "id": "c0ae0f9cb2fe8a3e",
+        "type": "inject",
+        "z": "a838eb2cf0ea046c",
+        "name": "data",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "20",
+        "crontab": "",
+        "once": true,
+        "onceDelay": "1",
+        "topic": "",
+        "payloadType": "date",
+        "x": 80,
+        "y": 60,
+        "wires": [
+            [
+                "8ea889226277e7e7"
+            ]
+        ]
+    },
+    {
+        "id": "330b701296516180",
+        "type": "http request",
+        "z": "902ff135d5a095e1",
+        "name": "get challenge",
+        "method": "GET",
+        "ret": "obj",
+        "paytoqs": "ignore",
+        "url": "http://mafreebox.freebox.fr/api/v8/login/",
+        "tls": "",
+        "persist": false,
+        "proxy": "",
+        "authType": "",
+        "x": 350,
+        "y": 500,
+        "wires": [
+            [
+                "3896f960c8b9dfd4"
+            ]
+        ]
+    },
+    {
+        "id": "b216fbbdb944f669",
+        "type": "inject",
+        "z": "902ff135d5a095e1",
+        "name": "get session_token",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payloadType": "date",
+        "x": 130,
+        "y": 500,
+        "wires": [
+            [
+                "330b701296516180"
+            ]
+        ]
+    },
+    {
+        "id": "53e2796d5f8f6634",
+        "type": "http request",
+        "z": "902ff135d5a095e1",
+        "name": "get session token",
+        "method": "POST",
+        "ret": "obj",
+        "paytoqs": "ignore",
+        "url": "http://mafreebox.freebox.fr/api/v8/login/session",
+        "tls": "",
+        "persist": false,
+        "proxy": "",
+        "authType": "",
+        "x": 1320,
+        "y": 500,
+        "wires": [
+            [
+                "1ffbcf8f598fc5d0",
+                "398edcc5b5f101a7"
+            ]
+        ]
+    },
+    {
+        "id": "1ffbcf8f598fc5d0",
+        "type": "debug",
+        "z": "902ff135d5a095e1",
+        "name": "",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload.result.session_token",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1590,
+        "y": 540,
+        "wires": []
+    },
+    {
+        "id": "5fe255758b94bed8",
+        "type": "debug",
+        "z": "902ff135d5a095e1",
+        "name": "",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 840,
+        "y": 540,
+        "wires": []
+    },
+    {
+        "id": "3896f960c8b9dfd4",
+        "type": "function",
+        "z": "902ff135d5a095e1",
+        "name": "challenge",
+        "func": "msg.challenge = msg.payload.result.challenge;\nmsg.salt = msg.payload.result.password_salt;\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 530,
+        "y": 500,
+        "wires": [
+            [
+                "1fc1be830456f3ce"
+            ]
+        ]
+    },
+    {
+        "id": "d9b5da9938eb8436",
+        "type": "function",
+        "z": "902ff135d5a095e1",
+        "name": "token, key",
+        "func": "msg.headers = 'Content-Type:application/json';\nchallenge = msg.challenge;\nsalt = msg.salt;\napitoken = msg.payload;\nmsg.payload = challenge;\nmsg.secrectkey = apitoken;\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 850,
+        "y": 500,
+        "wires": [
+            [
+                "e86962216db3bb51",
+                "e5d4aa4e54466018"
+            ]
+        ]
+    },
+    {
+        "id": "1fc1be830456f3ce",
+        "type": "file in",
+        "z": "902ff135d5a095e1",
+        "name": "get apitoken",
+        "filename": "/home/pi/freebox/apitoken.txt",
+        "format": "utf8",
+        "chunk": false,
+        "sendError": false,
+        "encoding": "none",
+        "allProps": false,
+        "x": 680,
+        "y": 500,
+        "wires": [
+            [
+                "5fe255758b94bed8",
+                "d9b5da9938eb8436"
+            ]
+        ]
+    },
+    {
+        "id": "775eab353f01562a",
+        "type": "function",
+        "z": "902ff135d5a095e1",
+        "name": "set body",
+        "func": "msg.headers = 'Content-Type:application/json';\npassword = msg.payload;\nmsg.payload = {\n    \"app_id\": \"nodered.rpi\"\n};\nmsg.payload['password'] = password;\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1150,
+        "y": 500,
+        "wires": [
+            [
+                "53e2796d5f8f6634"
+            ]
+        ]
+    },
+    {
+        "id": "6802c4e2dd7751f9",
+        "type": "debug",
+        "z": "902ff135d5a095e1",
+        "name": "",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1160,
+        "y": 460,
+        "wires": []
+    },
+    {
+        "id": "e86962216db3bb51",
+        "type": "debug",
+        "z": "902ff135d5a095e1",
+        "name": "",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "secrectkey",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1030,
+        "y": 540,
+        "wires": []
+    },
+    {
+        "id": "e5d4aa4e54466018",
+        "type": "hmac",
+        "z": "902ff135d5a095e1",
+        "name": "",
+        "algorithm": "HmacSHA1",
+        "key": "null (see https://github.com/vivekrp/node-red-contrib-crypto-js-dynamic/blob/main/cryptojs/hmac.js)",
+        "x": 1000,
+        "y": 500,
+        "wires": [
+            [
+                "6802c4e2dd7751f9",
+                "775eab353f01562a"
+            ]
+        ]
+    },
+    {
+        "id": "7cda904dd912b8f4",
+        "type": "debug",
+        "z": "902ff135d5a095e1",
+        "name": "",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1660,
+        "y": 500,
+        "wires": []
+    },
+    {
+        "id": "045310221337d147",
+        "type": "inject",
+        "z": "902ff135d5a095e1",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "session_token",
+        "payloadType": "global",
+        "x": 140,
+        "y": 560,
+        "wires": [
+            [
+                "bf204558ef10526e"
+            ]
+        ]
+    },
+    {
+        "id": "bf204558ef10526e",
+        "type": "debug",
+        "z": "902ff135d5a095e1",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 330,
+        "y": 560,
+        "wires": []
+    },
+    {
+        "id": "398edcc5b5f101a7",
+        "type": "function",
+        "z": "902ff135d5a095e1",
+        "name": "set global",
+        "func": "msg.payload = msg.payload.result.session_token;\nglobal.set(\"session_token\",msg.payload);\nmsg.payload = global.get(\"session_token\");\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1510,
+        "y": 500,
+        "wires": [
+            [
+                "7cda904dd912b8f4"
+            ]
+        ]
+    },
+    {
+        "id": "433c6746eb7752d1",
+        "type": "link in",
+        "z": "902ff135d5a095e1",
+        "name": "get session_token",
+        "links": [
+            "8c45e471876aea13",
+            "c55d039534b287a9"
+        ],
+        "x": 195,
+        "y": 460,
+        "wires": [
+            [
+                "330b701296516180"
+            ]
+        ]
+    },
+    {
+        "id": "53ad7a99c32ea714",
+        "type": "http request",
+        "z": "902ff135d5a095e1",
+        "name": "",
+        "method": "POST",
+        "ret": "obj",
+        "paytoqs": "ignore",
+        "url": "http://mafreebox.freebox.fr/api/v8/login/logout/",
+        "tls": "",
+        "persist": false,
+        "proxy": "",
+        "authType": "",
+        "x": 530,
+        "y": 620,
+        "wires": [
+            [
+                "4b8a11aa947fbe23",
+                "1edcf236b7a5559d"
+            ]
+        ]
+    },
+    {
+        "id": "88c3dca5560eb65a",
+        "type": "inject",
+        "z": "902ff135d5a095e1",
+        "name": "delete session_token",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payloadType": "date",
+        "x": 140,
+        "y": 620,
+        "wires": [
+            [
+                "98e76f3448c22086"
+            ]
+        ]
+    },
+    {
+        "id": "4b8a11aa947fbe23",
+        "type": "debug",
+        "z": "902ff135d5a095e1",
+        "name": "",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 730,
+        "y": 620,
+        "wires": []
+    },
+    {
+        "id": "98e76f3448c22086",
+        "type": "function",
+        "z": "902ff135d5a095e1",
+        "name": "set body",
+        "func": "msg.headers = {\n    'Content-Type':'application/json'\n    \n};\nmsg.headers['X-Fbx-App-Auth'] = global.get(\"session_token\");\nmsg.payload = {\n};\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "msg.headers = {\n    'Content-Type':'application/json'\n    \n};\nmsg.headers['X-Fbx-App-Auth'] = global.get(\"session_token\");\nmsg.payload = {\n};\nreturn msg;",
+        "libs": [],
+        "x": 340,
+        "y": 620,
+        "wires": [
+            [
+                "53ad7a99c32ea714"
+            ]
+        ]
+    },
+    {
+        "id": "55644bfee0f03883",
+        "type": "link in",
+        "z": "902ff135d5a095e1",
+        "name": "delete session key",
+        "links": [
+            "528840ad0e284cc4"
+        ],
+        "x": 195,
+        "y": 660,
+        "wires": [
+            [
+                "98e76f3448c22086"
+            ]
+        ]
+    },
+    {
+        "id": "528840ad0e284cc4",
+        "type": "link out",
+        "z": "902ff135d5a095e1",
+        "name": "apikey deleted",
+        "links": [
+            "55644bfee0f03883"
+        ],
+        "x": 455,
+        "y": 200,
+        "wires": []
+    },
+    {
+        "id": "503c2e051c9e9f50",
+        "type": "debug",
+        "z": "a838eb2cf0ea046c",
+        "name": "",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 390,
+        "y": 100,
+        "wires": []
+    },
+    {
+        "id": "1edcf236b7a5559d",
+        "type": "change",
+        "z": "902ff135d5a095e1",
+        "name": "",
+        "rules": [
+            {
+                "t": "delete",
+                "p": "session_token",
+                "pt": "global"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 780,
+        "y": 660,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "6d4b06fe2d977234",
+        "type": "function",
+        "z": "a838eb2cf0ea046c",
+        "d": true,
+        "name": "",
+        "func": "frbxdata = msg.payload.result.data;\nmsg.payload = [{\n\"series\": [\"bw_up\", \"bw_down\", \"rate_up\", \"rate_down\", \"vpn_rate_up\", \"vpn_rate_down\"],\n\"data\": [\n    [], [], [], [], [], []\n],\n\"labels\": [\"\"]\n}];\nfor (let element of frbxdata) {\n    time = element.time * 1000;\n    msg.payload[0].data[0].push( { \"x\" : time , \"y\" : element.bw_up/1000000 } );\n    msg.payload[0].data[1].push( { \"x\" : time , \"y\" : element.bw_down/1000000 } );\n    msg.payload[0].data[2].push( { \"x\" : time , \"y\" : element.rate_up/1000000 } );\n    msg.payload[0].data[3].push( { \"x\" : time , \"y\" : element.rate_down/1000000 } );\n    msg.payload[0].data[4].push( { \"x\" : time , \"y\" : element.vpn_rate_up/1000000 } );\n    msg.payload[0].data[5].push( { \"x\" : time , \"y\" : element.vpn_rate_down/1000000 } );\n}\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 780,
+        "y": 60,
+        "wires": [
+            [
+                "8190ce8419239d6b",
+                "ce24db40d36747e7"
+            ]
+        ]
+    },
+    {
+        "id": "8190ce8419239d6b",
+        "type": "debug",
+        "z": "a838eb2cf0ea046c",
+        "name": "",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 950,
+        "y": 20,
+        "wires": []
+    },
+    {
+        "id": "ce24db40d36747e7",
+        "type": "ui_chart",
+        "z": "a838eb2cf0ea046c",
+        "d": true,
+        "name": "",
+        "group": "4bb454ce062fd819",
+        "order": 1,
+        "width": "7",
+        "height": "5",
+        "label": "Vitesses (Mbps)",
+        "chartType": "line",
+        "legend": "true",
+        "xformat": "HH:mm",
+        "interpolate": "linear",
+        "nodata": "",
+        "dot": false,
+        "ymin": "",
+        "ymax": "",
+        "removeOlder": 1,
+        "removeOlderPoints": "10000",
+        "removeOlderUnit": "604800",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "x": 960,
+        "y": 60,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "15704d664090d57d",
+        "type": "switch",
+        "z": "a838eb2cf0ea046c",
+        "name": "",
+        "property": "payload.success",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "true"
+            },
+            {
+                "t": "else"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 2,
+        "x": 610,
+        "y": 60,
+        "wires": [
+            [
+                "6d4b06fe2d977234",
+                "0d529096dbf26986",
+                "d5cd7de1d7b80a06"
+            ],
+            [
+                "5db676517e50f886"
+            ]
+        ]
+    },
+    {
+        "id": "0d529096dbf26986",
+        "type": "function",
+        "z": "a838eb2cf0ea046c",
+        "name": "",
+        "func": "frbxdata = msg.payload.result.data;\nmsg.payload = [{\n\"series\": [\"Actuel\", \"Maximum\", \"VPN\"],\n\"data\": [\n    [], [], []\n],\n\"labels\": [\"\"]\n}];\nfor (let element of frbxdata) {\n    time = element.time * 1000;\n    msg.payload[0].data[1].push( { \"x\" : time , \"y\" : element.bw_up/1000000 } );\n    msg.payload[0].data[0].push( { \"x\" : time , \"y\" : element.rate_up/1000000 } );\n    msg.payload[0].data[2].push( { \"x\" : time , \"y\" : element.vpn_rate_up/1000000 } );\n}\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 780,
+        "y": 140,
+        "wires": [
+            [
+                "2aff7ab15078e15a"
+            ]
+        ]
+    },
+    {
+        "id": "2aff7ab15078e15a",
+        "type": "ui_chart",
+        "z": "a838eb2cf0ea046c",
+        "name": "",
+        "group": "4bb454ce062fd819",
+        "order": 3,
+        "width": "0",
+        "height": "0",
+        "label": "Upload (Mbps)",
+        "chartType": "line",
+        "legend": "true",
+        "xformat": "HH:mm",
+        "interpolate": "linear",
+        "nodata": "",
+        "dot": false,
+        "ymin": "",
+        "ymax": "",
+        "removeOlder": 1,
+        "removeOlderPoints": "10000",
+        "removeOlderUnit": "604800",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#d62728",
+            "#ff9896",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "x": 960,
+        "y": 140,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "d5cd7de1d7b80a06",
+        "type": "function",
+        "z": "a838eb2cf0ea046c",
+        "name": "",
+        "func": "frbxdata = msg.payload.result.data;\nmsg.payload = [{\n\"series\": [\"Actuel\", \"Maximum\", \"VPN\"],\n\"data\": [\n    [], [], []\n],\n\"labels\": [\"\"]\n}];\nfor (let element of frbxdata) {\n    time = element.time * 1000;\n    msg.payload[0].data[1].push( { \"x\" : time , \"y\" : element.bw_down/1000000 } );\n    msg.payload[0].data[0].push( { \"x\" : time , \"y\" : element.rate_down/1000000 } );\n    msg.payload[0].data[2].push( { \"x\" : time , \"y\" : element.vpn_rate_down/1000000 } );\n}\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 780,
+        "y": 100,
+        "wires": [
+            [
+                "992ebc9e20f96963"
+            ]
+        ]
+    },
+    {
+        "id": "992ebc9e20f96963",
+        "type": "ui_chart",
+        "z": "a838eb2cf0ea046c",
+        "name": "",
+        "group": "4bb454ce062fd819",
+        "order": 2,
+        "width": "0",
+        "height": "0",
+        "label": "Download (Mbps)",
+        "chartType": "line",
+        "legend": "true",
+        "xformat": "HH:mm",
+        "interpolate": "linear",
+        "nodata": "",
+        "dot": false,
+        "ymin": "",
+        "ymax": "",
+        "removeOlder": 1,
+        "removeOlderPoints": "10000",
+        "removeOlderUnit": "604800",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#2ca02c",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "x": 970,
+        "y": 100,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "24f7633781f818f6",
+        "type": "http request",
+        "z": "a838eb2cf0ea046c",
+        "name": "post to freebox",
+        "method": "POST",
+        "ret": "obj",
+        "paytoqs": "ignore",
+        "url": "http://mafreebox.freebox.fr/api/v8/rrd/",
+        "tls": "",
+        "persist": false,
+        "proxy": "",
+        "authType": "",
+        "x": 420,
+        "y": 280,
+        "wires": [
+            [
+                "8d4a0c0cd251409b",
+                "983724a5c92a6958"
+            ]
+        ]
+    },
+    {
+        "id": "8d4a0c0cd251409b",
+        "type": "debug",
+        "z": "a838eb2cf0ea046c",
+        "name": "",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 610,
+        "y": 240,
+        "wires": []
+    },
+    {
+        "id": "fea44ee5cdb2b892",
+        "type": "function",
+        "z": "a838eb2cf0ea046c",
+        "name": "\"db\": \"dsl\"",
+        "func": "msg.headers = {\n    'Content-Type':'application/json'\n    \n};\nmsg.headers['X-Fbx-App-Auth'] = global.get(\"session_token\");\n\nmsg.payload = {\n   \"db\": \"dsl\",\n   //\"fields\": [ \"temp1\" ],\n   \"precision\": 10\n};\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 240,
+        "y": 280,
+        "wires": [
+            [
+                "24f7633781f818f6",
+                "46ac8e14909901be"
+            ]
+        ]
+    },
+    {
+        "id": "321e73225ef4f32b",
+        "type": "inject",
+        "z": "a838eb2cf0ea046c",
+        "name": "data",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "20",
+        "crontab": "",
+        "once": true,
+        "onceDelay": "1",
+        "topic": "",
+        "payloadType": "date",
+        "x": 80,
+        "y": 280,
+        "wires": [
+            [
+                "fea44ee5cdb2b892"
+            ]
+        ]
+    },
+    {
+        "id": "46ac8e14909901be",
+        "type": "debug",
+        "z": "a838eb2cf0ea046c",
+        "name": "",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 390,
+        "y": 320,
+        "wires": []
+    },
+    {
+        "id": "f966f87187ff3735",
+        "type": "function",
+        "z": "a838eb2cf0ea046c",
+        "name": "",
+        "func": "frbxdata = msg.payload.result.data;\nmsg.payload = [{\n\"series\": [\"dsl upload signal/noise ratio\", \"dsl download signal/noise ratio\"],\n\"data\": [\n    [], []\n],\n\"labels\": [\"\"]\n}];\nfor (let element of frbxdata) {\n    time = element.time * 1000;\n    msg.payload[0].data[0].push( { \"x\" : time , \"y\" : element.snr_up/100 } );\n    msg.payload[0].data[1].push( { \"x\" : time , \"y\" : element.snr_down/100 } );\n}\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 780,
+        "y": 280,
+        "wires": [
+            [
+                "501ca58a646f034d",
+                "797780bd89559510"
+            ]
+        ]
+    },
+    {
+        "id": "501ca58a646f034d",
+        "type": "debug",
+        "z": "a838eb2cf0ea046c",
+        "name": "",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 950,
+        "y": 240,
+        "wires": []
+    },
+    {
+        "id": "797780bd89559510",
+        "type": "ui_chart",
+        "z": "a838eb2cf0ea046c",
+        "name": "",
+        "group": "0a413baa56b6e7b6",
+        "order": 4,
+        "width": "0",
+        "height": "0",
+        "label": "Marge de bruit (dB)",
+        "chartType": "line",
+        "legend": "true",
+        "xformat": "HH:mm",
+        "interpolate": "linear",
+        "nodata": "",
+        "dot": false,
+        "ymin": "",
+        "ymax": "",
+        "removeOlder": 1,
+        "removeOlderPoints": "10000",
+        "removeOlderUnit": "604800",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "x": 970,
+        "y": 280,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "983724a5c92a6958",
+        "type": "switch",
+        "z": "a838eb2cf0ea046c",
+        "name": "",
+        "property": "payload.success",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "true"
+            },
+            {
+                "t": "else"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 2,
+        "x": 610,
+        "y": 280,
+        "wires": [
+            [
+                "f966f87187ff3735",
+                "ad5b055302bdb1f3"
+            ],
+            [
+                "ce7055a089f5a123"
+            ]
+        ]
+    },
+    {
+        "id": "ad5b055302bdb1f3",
+        "type": "function",
+        "z": "a838eb2cf0ea046c",
+        "d": true,
+        "name": "",
+        "func": "frbxdata = msg.payload.result.data;\nmsg.payload = [{\n\"series\": [\"Upload\", \"Download\"],\n\"data\": [\n    [], []\n],\n\"labels\": [\"\"]\n}];\nfor (let element of frbxdata) {\n    time = element.time * 1000;\n    msg.payload[0].data[0].push( { \"x\" : time , \"y\" : element.rate_up/10000 } );\n    msg.payload[0].data[1].push( { \"x\" : time , \"y\" : element.rate_down/10000 } );\n}\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 780,
+        "y": 320,
+        "wires": [
+            [
+                "bed7b3a501619bf9"
+            ]
+        ]
+    },
+    {
+        "id": "bed7b3a501619bf9",
+        "type": "ui_chart",
+        "z": "a838eb2cf0ea046c",
+        "d": true,
+        "name": "",
+        "group": "0a413baa56b6e7b6",
+        "order": 4,
+        "width": "7",
+        "height": "5",
+        "label": "Débit Max (Mbps)",
+        "chartType": "line",
+        "legend": "true",
+        "xformat": "HH:mm",
+        "interpolate": "linear",
+        "nodata": "",
+        "dot": false,
+        "ymin": "",
+        "ymax": "",
+        "removeOlder": 1,
+        "removeOlderPoints": "10000",
+        "removeOlderUnit": "604800",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "x": 970,
+        "y": 320,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "7392a0e4356bec8d",
+        "type": "http request",
+        "z": "62ab2e54e9993ac0",
+        "name": "",
+        "method": "GET",
+        "ret": "obj",
+        "paytoqs": "ignore",
+        "url": "http://mafreebox.freebox.fr/api/v8/system/",
+        "tls": "",
+        "persist": false,
+        "proxy": "",
+        "authType": "",
+        "x": 490,
+        "y": 40,
+        "wires": [
+            [
+                "94fda4c60500385d",
+                "16f9b2f26adf1d4d"
+            ]
+        ]
+    },
+    {
+        "id": "73c63b1d3a6bceb8",
+        "type": "inject",
+        "z": "62ab2e54e9993ac0",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "1",
+        "crontab": "",
+        "once": true,
+        "onceDelay": "1",
+        "topic": "",
+        "payloadType": "date",
+        "x": 110,
+        "y": 40,
+        "wires": [
+            [
+                "fe46d574a2d62bd8"
+            ]
+        ]
+    },
+    {
+        "id": "94fda4c60500385d",
+        "type": "debug",
+        "z": "62ab2e54e9993ac0",
+        "name": "",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 650,
+        "y": 40,
+        "wires": []
+    },
+    {
+        "id": "fe46d574a2d62bd8",
+        "type": "function",
+        "z": "62ab2e54e9993ac0",
+        "name": "set body",
+        "func": "msg = {};\nmsg.headers = {\n};\nmsg.headers['X-Fbx-App-Auth'] = global.get(\"session_token\");\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "msg.headers = {\n    'Content-Type':'application/json'\n    \n};\nmsg.headers['X-Fbx-App-Auth'] = global.get(\"session_token\");\nmsg.payload = {\n};\nreturn msg;",
+        "libs": [],
+        "x": 300,
+        "y": 40,
+        "wires": [
+            [
+                "7392a0e4356bec8d"
+            ]
+        ]
+    },
+    {
+        "id": "b49cda07bac39877",
+        "type": "ui_text",
+        "z": "62ab2e54e9993ac0",
+        "group": "2075d3b014cdbb5f",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "allumée depuis :",
+        "format": "{{msg.payload.result.uptime}}",
+        "layout": "col-center",
+        "x": 920,
+        "y": 140,
+        "wires": []
+    },
+    {
+        "id": "16f9b2f26adf1d4d",
+        "type": "switch",
+        "z": "62ab2e54e9993ac0",
+        "name": "",
+        "property": "payload.success",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "else"
+            },
+            {
+                "t": "true"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 2,
+        "x": 650,
+        "y": 80,
+        "wires": [
+            [
+                "ab71f09f658799c4"
+            ],
+            [
+                "b49cda07bac39877",
+                "5ccba0a7bc9e2c84",
+                "9128d48a0cc299f8",
+                "54fe464fb45eb784",
+                "4fda6fcedfd64a5e",
+                "54fdfb7844066366",
+                "0eeed7da1e470ed7",
+                "5f4e232a5eb26ff7",
+                "f384162693e3b806",
+                "74f32615c9caee3c",
+                "0c85ebce89d82deb",
+                "76165064542e353b",
+                "10b86a92ac172dbe"
+            ]
+        ]
+    },
+    {
+        "id": "061a46aa4aac3213",
+        "type": "ui_toast",
+        "z": "4439d6510d32de5f",
+        "position": "dialog",
+        "displayTime": "5",
+        "highlight": "",
+        "sendall": true,
+        "outputs": 1,
+        "ok": "OK",
+        "cancel": "",
+        "raw": false,
+        "topic": "Redémarrage",
+        "name": "",
+        "x": 1210,
+        "y": 80,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "ba27e086d8587127",
+        "type": "http request",
+        "z": "4439d6510d32de5f",
+        "name": "",
+        "method": "POST",
+        "ret": "obj",
+        "paytoqs": "ignore",
+        "url": "http://mafreebox.freebox.fr/api/v8/system/reboot/",
+        "tls": "",
+        "persist": false,
+        "proxy": "",
+        "authType": "",
+        "x": 710,
+        "y": 80,
+        "wires": [
+            [
+                "ad9499bd40be0c2f",
+                "b2c800da1b5c6e98"
+            ]
+        ]
+    },
+    {
+        "id": "99ed1554b020dc2b",
+        "type": "inject",
+        "z": "4439d6510d32de5f",
+        "name": "Redémarrer",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": "1",
+        "topic": "",
+        "payloadType": "date",
+        "x": 390,
+        "y": 40,
+        "wires": [
+            [
+                "fb058b5f5cda6f3e"
+            ]
+        ]
+    },
+    {
+        "id": "fb058b5f5cda6f3e",
+        "type": "function",
+        "z": "4439d6510d32de5f",
+        "name": "set body",
+        "func": "msg = {};\nmsg.headers = {\n};\nmsg.headers['X-Fbx-App-Auth'] = global.get(\"session_token\");\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "msg.headers = {\n    'Content-Type':'application/json'\n    \n};\nmsg.headers['X-Fbx-App-Auth'] = global.get(\"session_token\");\nmsg.payload = {\n};\nreturn msg;",
+        "libs": [],
+        "x": 560,
+        "y": 80,
+        "wires": [
+            [
+                "ba27e086d8587127"
+            ]
+        ]
+    },
+    {
+        "id": "ad9499bd40be0c2f",
+        "type": "switch",
+        "z": "4439d6510d32de5f",
+        "name": "",
+        "property": "payload.success",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "true"
+            },
+            {
+                "t": "else"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 2,
+        "x": 870,
+        "y": 80,
+        "wires": [
+            [
+                "b24d329633cc5e5e"
+            ],
+            [
+                "ac663d7015ac34d9"
+            ]
+        ]
+    },
+    {
+        "id": "7b87623ce8b38ed8",
+        "type": "ui_button",
+        "z": "4439d6510d32de5f",
+        "name": "",
+        "group": "b1155bbb.d9b25",
+        "order": 0,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "Redémarrer",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "red",
+        "icon": "power_settings_new",
+        "payload": "Voulez-vous redémarrer la Freebox ?",
+        "payloadType": "str",
+        "topic": "Voulez-vous redémarrer la Freebox ?",
+        "topicType": "str",
+        "x": 110,
+        "y": 80,
+        "wires": [
+            [
+                "2ecfc9a605f4571d"
+            ]
+        ]
+    },
+    {
+        "id": "2ecfc9a605f4571d",
+        "type": "ui_toast",
+        "z": "4439d6510d32de5f",
+        "position": "dialog",
+        "displayTime": "5",
+        "highlight": "",
+        "sendall": true,
+        "outputs": 1,
+        "ok": "OK",
+        "cancel": "Annuler",
+        "raw": false,
+        "topic": "Redémarrer ?",
+        "name": "",
+        "x": 270,
+        "y": 80,
+        "wires": [
+            [
+                "38f12a240d82eeea"
+            ]
+        ]
+    },
+    {
+        "id": "38f12a240d82eeea",
+        "type": "switch",
+        "z": "4439d6510d32de5f",
+        "name": "",
+        "property": "payload",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "OK",
+                "vt": "str"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 1,
+        "x": 410,
+        "y": 80,
+        "wires": [
+            [
+                "fb058b5f5cda6f3e"
+            ]
+        ]
+    },
+    {
+        "id": "b24d329633cc5e5e",
+        "type": "change",
+        "z": "4439d6510d32de5f",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "La freebox va redémarrer.",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1040,
+        "y": 80,
+        "wires": [
+            [
+                "061a46aa4aac3213"
+            ]
+        ]
+    },
+    {
+        "id": "5ccba0a7bc9e2c84",
+        "type": "switch",
+        "z": "62ab2e54e9993ac0",
+        "name": "",
+        "property": "payload.result.disk_status",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "not_detected",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "disabled",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "initializing",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "error",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "active",
+                "vt": "str"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 5,
+        "x": 890,
+        "y": 200,
+        "wires": [
+            [
+                "0c299bcff581ebb8"
+            ],
+            [
+                "76fab8257e108ca8"
+            ],
+            [
+                "14a29084a7ef49c1"
+            ],
+            [
+                "d73c4432fb8fc19c"
+            ],
+            [
+                "7acc6ed9f4b40c20"
+            ]
+        ]
+    },
+    {
+        "id": "f635a907b46e6db9",
+        "type": "ui_text",
+        "z": "62ab2e54e9993ac0",
+        "group": "2075d3b014cdbb5f",
+        "order": 3,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "disque dur",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "x": 1290,
+        "y": 260,
+        "wires": []
+    },
+    {
+        "id": "0c299bcff581ebb8",
+        "type": "change",
+        "z": "62ab2e54e9993ac0",
+        "name": "not_detected",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "Le disque n'a pas été détecté",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1070,
+        "y": 180,
+        "wires": [
+            [
+                "f635a907b46e6db9"
+            ]
+        ]
+    },
+    {
+        "id": "76fab8257e108ca8",
+        "type": "change",
+        "z": "62ab2e54e9993ac0",
+        "name": "disabled",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "Le disque est désactivé",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1060,
+        "y": 220,
+        "wires": [
+            [
+                "f635a907b46e6db9"
+            ]
+        ]
+    },
+    {
+        "id": "14a29084a7ef49c1",
+        "type": "change",
+        "z": "62ab2e54e9993ac0",
+        "name": "initializing",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "Le disque s'initialise",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1060,
+        "y": 260,
+        "wires": [
+            [
+                "f635a907b46e6db9"
+            ]
+        ]
+    },
+    {
+        "id": "d73c4432fb8fc19c",
+        "type": "change",
+        "z": "62ab2e54e9993ac0",
+        "name": "error",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "Le disque n'a pas pu se monter",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1050,
+        "y": 300,
+        "wires": [
+            [
+                "f635a907b46e6db9"
+            ]
+        ]
+    },
+    {
+        "id": "7acc6ed9f4b40c20",
+        "type": "change",
+        "z": "62ab2e54e9993ac0",
+        "name": "active",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "Le disque est prêt",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1050,
+        "y": 340,
+        "wires": [
+            [
+                "f635a907b46e6db9"
+            ]
+        ]
+    },
+    {
+        "id": "9128d48a0cc299f8",
+        "type": "debug",
+        "z": "62ab2e54e9993ac0",
+        "name": "",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload.result",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 930,
+        "y": 100,
+        "wires": []
+    },
+    {
+        "id": "37179428002096c8",
+        "type": "link in",
+        "z": "902ff135d5a095e1",
+        "name": "disconnected ?",
+        "links": [
+            "5db676517e50f886",
+            "ce7055a089f5a123",
+            "ab71f09f658799c4",
+            "ac663d7015ac34d9",
+            "378cf04502f140f7",
+            "9c058d3835be1ce4",
+            "348f1fd0133eef3c",
+            "1bc6370c3c1c88f6",
+            "3710a8bbc6ca0c37"
+        ],
+        "x": 35,
+        "y": 420,
+        "wires": [
+            [
+                "179be6f8f6677530"
+            ]
+        ]
+    },
+    {
+        "id": "179be6f8f6677530",
+        "type": "switch",
+        "z": "902ff135d5a095e1",
+        "name": "disconnected ?",
+        "property": "payload.msg",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "Vous devez vous connecter pour accéder à cette fonction",
+                "vt": "str"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 1,
+        "x": 140,
+        "y": 420,
+        "wires": [
+            [
+                "f357cda7bd73b171"
+            ]
+        ]
+    },
+    {
+        "id": "5db676517e50f886",
+        "type": "link out",
+        "z": "a838eb2cf0ea046c",
+        "name": "success false",
+        "links": [
+            "37179428002096c8"
+        ],
+        "x": 675,
+        "y": 160,
+        "wires": []
+    },
+    {
+        "id": "ce7055a089f5a123",
+        "type": "link out",
+        "z": "a838eb2cf0ea046c",
+        "name": "success false",
+        "links": [
+            "37179428002096c8"
+        ],
+        "x": 675,
+        "y": 380,
+        "wires": []
+    },
+    {
+        "id": "ab71f09f658799c4",
+        "type": "link out",
+        "z": "62ab2e54e9993ac0",
+        "name": "success false",
+        "links": [
+            "37179428002096c8"
+        ],
+        "x": 795,
+        "y": 60,
+        "wires": []
+    },
+    {
+        "id": "54fe464fb45eb784",
+        "type": "ui_text",
+        "z": "62ab2e54e9993ac0",
+        "group": "2075d3b014cdbb5f",
+        "order": 4,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "partition principale",
+        "format": "{{msg.payload.result.user_main_storage}}",
+        "layout": "row-spread",
+        "x": 930,
+        "y": 380,
+        "wires": []
+    },
+    {
+        "id": "4fda6fcedfd64a5e",
+        "type": "ui_text",
+        "z": "62ab2e54e9993ac0",
+        "group": "2075d3b014cdbb5f",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "Nom",
+        "format": "{{msg.payload.result .model_info.pretty_name}}",
+        "layout": "row-spread",
+        "x": 870,
+        "y": 420,
+        "wires": []
+    },
+    {
+        "id": "54fdfb7844066366",
+        "type": "ui_text",
+        "z": "62ab2e54e9993ac0",
+        "group": "2075d3b014cdbb5f",
+        "order": 4,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "N° série",
+        "format": "{{msg.payload.result.serial}}",
+        "layout": "row-spread",
+        "x": 860,
+        "y": 460,
+        "wires": []
+    },
+    {
+        "id": "0eeed7da1e470ed7",
+        "type": "ui_text",
+        "z": "62ab2e54e9993ac0",
+        "group": "2075d3b014cdbb5f",
+        "order": 4,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "adresse mac",
+        "format": "{{msg.payload.result .mac}}",
+        "layout": "row-spread",
+        "x": 850,
+        "y": 500,
+        "wires": []
+    },
+    {
+        "id": "5f4e232a5eb26ff7",
+        "type": "ui_text",
+        "z": "62ab2e54e9993ac0",
+        "group": "2075d3b014cdbb5f",
+        "order": 4,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "Firmware",
+        "format": "{{msg.payload.result.firmware_version}}",
+        "layout": "row-spread",
+        "x": 820,
+        "y": 540,
+        "wires": []
+    },
+    {
+        "id": "ac663d7015ac34d9",
+        "type": "link out",
+        "z": "4439d6510d32de5f",
+        "name": "success false",
+        "links": [
+            "37179428002096c8"
+        ],
+        "x": 955,
+        "y": 120,
+        "wires": []
+    },
+    {
+        "id": "f384162693e3b806",
+        "type": "ui_gauge",
+        "z": "62ab2e54e9993ac0",
+        "name": "",
+        "group": "8641f24d830c936b",
+        "order": 3,
+        "width": "3",
+        "height": "3",
+        "gtype": "gage",
+        "title": "Température 2",
+        "label": "°C",
+        "format": "{{msg.payload.result.sensors[0].value}}",
+        "min": "30",
+        "max": "100",
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "60",
+        "seg2": "80",
+        "x": 820,
+        "y": 580,
+        "wires": []
+    },
+    {
+        "id": "74f32615c9caee3c",
+        "type": "ui_gauge",
+        "z": "62ab2e54e9993ac0",
+        "name": "",
+        "group": "8641f24d830c936b",
+        "order": 1,
+        "width": "3",
+        "height": "3",
+        "gtype": "gage",
+        "title": "Température 1",
+        "label": "°C",
+        "format": "{{msg.payload.result.sensors[1].value}}",
+        "min": "30",
+        "max": "100",
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "60",
+        "seg2": "80",
+        "x": 800,
+        "y": 620,
+        "wires": []
+    },
+    {
+        "id": "0c85ebce89d82deb",
+        "type": "ui_gauge",
+        "z": "62ab2e54e9993ac0",
+        "name": "",
+        "group": "8641f24d830c936b",
+        "order": 4,
+        "width": "3",
+        "height": "3",
+        "gtype": "gage",
+        "title": "Température CPU B",
+        "label": "°C",
+        "format": "{{msg.payload.result.sensors[2].value}}",
+        "min": "30",
+        "max": "100",
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "60",
+        "seg2": "80",
+        "x": 800,
+        "y": 660,
+        "wires": []
+    },
+    {
+        "id": "76165064542e353b",
+        "type": "ui_gauge",
+        "z": "62ab2e54e9993ac0",
+        "name": "",
+        "group": "8641f24d830c936b",
+        "order": 6,
+        "width": "4",
+        "height": "3",
+        "gtype": "gage",
+        "title": "Ventilateur",
+        "label": "RPM",
+        "format": "{{msg.payload.result.fans[0].value}}",
+        "min": "0",
+        "max": "2000",
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "1500",
+        "seg2": "1950",
+        "x": 750,
+        "y": 700,
+        "wires": []
+    },
+    {
+        "id": "f18354bb7fcb1f5c",
+        "type": "ui_text",
+        "z": "62ab2e54e9993ac0",
+        "group": "2075d3b014cdbb5f",
+        "order": 4,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "Synchronisation",
+        "format": "<font color= {{msg.color}} > {{msg.payload}} </font>",
+        "layout": "row-spread",
+        "x": 1280,
+        "y": 800,
+        "wires": []
+    },
+    {
+        "id": "d898c516b5e698a8",
+        "type": "change",
+        "z": "62ab2e54e9993ac0",
+        "name": "synchronisée",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "synchronisée",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 870,
+        "y": 740,
+        "wires": [
+            [
+                "4ef8c42f29854f02"
+            ]
+        ]
+    },
+    {
+        "id": "10b86a92ac172dbe",
+        "type": "switch",
+        "z": "62ab2e54e9993ac0",
+        "name": "",
+        "property": "payload.result.box_authenticated",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "true"
+            },
+            {
+                "t": "false"
+            },
+            {
+                "t": "else"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 3,
+        "x": 690,
+        "y": 780,
+        "wires": [
+            [
+                "d898c516b5e698a8"
+            ],
+            [
+                "5e95407cb15428de"
+            ],
+            [
+                "4ef8c42f29854f02"
+            ]
+        ]
+    },
+    {
+        "id": "5e95407cb15428de",
+        "type": "change",
+        "z": "62ab2e54e9993ac0",
+        "name": "désynchronisée",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "désynchronisée",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 880,
+        "y": 780,
+        "wires": [
+            [
+                "4ef8c42f29854f02"
+            ]
+        ]
+    },
+    {
+        "id": "4ef8c42f29854f02",
+        "type": "function",
+        "z": "62ab2e54e9993ac0",
+        "name": "Color Mapping",
+        "func": "switch (msg.payload) {\n\ncase \"synchronisée\" : \n    msg.color = \"lime\";\n    break;\ndefault : \n    msg.color = \"red\";\n    break;\n}\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1080,
+        "y": 800,
+        "wires": [
+            [
+                "f18354bb7fcb1f5c"
+            ]
+        ]
+    },
+    {
+        "id": "40f45474ca0e358f",
+        "type": "http request",
+        "z": "64de7ca89bd91501",
+        "name": "",
+        "method": "GET",
+        "ret": "obj",
+        "paytoqs": "ignore",
+        "url": "http://mafreebox.freebox.fr/api/v8/dhcp/config/",
+        "tls": "",
+        "persist": false,
+        "proxy": "",
+        "authType": "",
+        "x": 490,
+        "y": 40,
+        "wires": [
+            [
+                "a7d4dd459ab48bcd",
+                "eba2dfe62050874f"
+            ]
+        ]
+    },
+    {
+        "id": "3e398b0feb102e55",
+        "type": "inject",
+        "z": "64de7ca89bd91501",
+        "name": "DHCP",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "5",
+        "crontab": "",
+        "once": true,
+        "onceDelay": "5",
+        "topic": "",
+        "payloadType": "date",
+        "x": 100,
+        "y": 40,
+        "wires": [
+            [
+                "3d3d863d7ae79313"
+            ]
+        ]
+    },
+    {
+        "id": "a7d4dd459ab48bcd",
+        "type": "debug",
+        "z": "64de7ca89bd91501",
+        "name": "",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 650,
+        "y": 40,
+        "wires": []
+    },
+    {
+        "id": "3d3d863d7ae79313",
+        "type": "function",
+        "z": "64de7ca89bd91501",
+        "name": "set body",
+        "func": "msg = {};\nmsg.headers = {\n};\nmsg.headers['X-Fbx-App-Auth'] = global.get(\"session_token\");\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "msg.headers = {\n    'Content-Type':'application/json'\n    \n};\nmsg.headers['X-Fbx-App-Auth'] = global.get(\"session_token\");\nmsg.payload = {\n};\nreturn msg;",
+        "libs": [],
+        "x": 300,
+        "y": 40,
+        "wires": [
+            [
+                "40f45474ca0e358f"
+            ]
+        ]
+    },
+    {
+        "id": "eba2dfe62050874f",
+        "type": "switch",
+        "z": "64de7ca89bd91501",
+        "name": "",
+        "property": "payload.success",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "else"
+            },
+            {
+                "t": "true"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 2,
+        "x": 650,
+        "y": 80,
+        "wires": [
+            [
+                "378cf04502f140f7"
+            ],
+            [
+                "dfec3f8682802d0f",
+                "786cc51b8cf934da",
+                "f51101dd84edefa6",
+                "292bef292d3b1e5b",
+                "940c40e77a200367"
+            ]
+        ]
+    },
+    {
+        "id": "378cf04502f140f7",
+        "type": "link out",
+        "z": "64de7ca89bd91501",
+        "name": "success false",
+        "links": [
+            "37179428002096c8"
+        ],
+        "x": 795,
+        "y": 60,
+        "wires": []
+    },
+    {
+        "id": "dfec3f8682802d0f",
+        "type": "debug",
+        "z": "64de7ca89bd91501",
+        "name": "",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload.result",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 930,
+        "y": 100,
+        "wires": []
+    },
+    {
+        "id": "4ec4149105244a06",
+        "type": "ui_text",
+        "z": "64de7ca89bd91501",
+        "group": "3fd0c35cc4fa7663",
+        "order": 3,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "DHCP",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "x": 1070,
+        "y": 160,
+        "wires": []
+    },
+    {
+        "id": "a57aca54ccb2c38e",
+        "type": "change",
+        "z": "64de7ca89bd91501",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "activé",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 920,
+        "y": 140,
+        "wires": [
+            [
+                "4ec4149105244a06"
+            ]
+        ]
+    },
+    {
+        "id": "786cc51b8cf934da",
+        "type": "switch",
+        "z": "64de7ca89bd91501",
+        "name": "",
+        "property": "msg.payload.result.enabled",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "true"
+            },
+            {
+                "t": "false"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 2,
+        "x": 770,
+        "y": 160,
+        "wires": [
+            [
+                "a57aca54ccb2c38e"
+            ],
+            [
+                "b446707c95e14f17"
+            ]
+        ]
+    },
+    {
+        "id": "b446707c95e14f17",
+        "type": "change",
+        "z": "64de7ca89bd91501",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "désactivé",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 920,
+        "y": 180,
+        "wires": [
+            [
+                "4ec4149105244a06"
+            ]
+        ]
+    },
+    {
+        "id": "f51101dd84edefa6",
+        "type": "ui_text",
+        "z": "64de7ca89bd91501",
+        "group": "3fd0c35cc4fa7663",
+        "order": 3,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "Passerelle",
+        "format": "{{msg.payload.result.gateway}}",
+        "layout": "row-spread",
+        "x": 770,
+        "y": 220,
+        "wires": []
+    },
+    {
+        "id": "292bef292d3b1e5b",
+        "type": "ui_text",
+        "z": "64de7ca89bd91501",
+        "group": "3fd0c35cc4fa7663",
+        "order": 3,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "plage d'IPs",
+        "format": "{{msg.payload.result.ip_range_start}} - {{msg.payload.result.ip_range_end}}",
+        "layout": "row-spread",
+        "x": 750,
+        "y": 260,
+        "wires": []
+    },
+    {
+        "id": "940c40e77a200367",
+        "type": "ui_text",
+        "z": "64de7ca89bd91501",
+        "group": "3fd0c35cc4fa7663",
+        "order": 3,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "Masque de sous-réseau",
+        "format": "{{msg.payload.result.netmask}}",
+        "layout": "row-spread",
+        "x": 770,
+        "y": 300,
+        "wires": []
+    },
+    {
+        "id": "3fee888faf90b7c2",
+        "type": "http request",
+        "z": "64de7ca89bd91501",
+        "name": "",
+        "method": "GET",
+        "ret": "obj",
+        "paytoqs": "ignore",
+        "url": "http://mafreebox.freebox.fr/api/v8/dhcp/static_lease/",
+        "tls": "",
+        "persist": false,
+        "proxy": "",
+        "authType": "",
+        "x": 490,
+        "y": 400,
+        "wires": [
+            [
+                "ade9ee19861828d6",
+                "382260f82384fa72"
+            ]
+        ]
+    },
+    {
+        "id": "c3eaca84094e4cfb",
+        "type": "inject",
+        "z": "64de7ca89bd91501",
+        "name": "IPs Statiques",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "60",
+        "crontab": "",
+        "once": true,
+        "onceDelay": "5",
+        "topic": "",
+        "payloadType": "date",
+        "x": 120,
+        "y": 400,
+        "wires": [
+            [
+                "e2689bdfba9fc076"
+            ]
+        ]
+    },
+    {
+        "id": "ade9ee19861828d6",
+        "type": "debug",
+        "z": "64de7ca89bd91501",
+        "name": "",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 650,
+        "y": 400,
+        "wires": []
+    },
+    {
+        "id": "e2689bdfba9fc076",
+        "type": "function",
+        "z": "64de7ca89bd91501",
+        "name": "set body",
+        "func": "msg = {};\nmsg.headers = {\n};\nmsg.headers['X-Fbx-App-Auth'] = global.get(\"session_token\");\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "msg.headers = {\n    'Content-Type':'application/json'\n    \n};\nmsg.headers['X-Fbx-App-Auth'] = global.get(\"session_token\");\nmsg.payload = {\n};\nreturn msg;",
+        "libs": [],
+        "x": 300,
+        "y": 400,
+        "wires": [
+            [
+                "3fee888faf90b7c2"
+            ]
+        ]
+    },
+    {
+        "id": "382260f82384fa72",
+        "type": "switch",
+        "z": "64de7ca89bd91501",
+        "name": "",
+        "property": "payload.success",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "else"
+            },
+            {
+                "t": "true"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 2,
+        "x": 650,
+        "y": 440,
+        "wires": [
+            [
+                "9c058d3835be1ce4"
+            ],
+            [
+                "07b46896084dca44",
+                "e0c0b08169bc122a",
+                "9d79627bb39d4ecc"
+            ]
+        ]
+    },
+    {
+        "id": "9c058d3835be1ce4",
+        "type": "link out",
+        "z": "64de7ca89bd91501",
+        "name": "success false",
+        "links": [
+            "37179428002096c8"
+        ],
+        "x": 795,
+        "y": 420,
+        "wires": []
+    },
+    {
+        "id": "07b46896084dca44",
+        "type": "debug",
+        "z": "64de7ca89bd91501",
+        "name": "",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload.result",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 930,
+        "y": 460,
+        "wires": []
+    },
+    {
+        "id": "b2c800da1b5c6e98",
+        "type": "debug",
+        "z": "4439d6510d32de5f",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 890,
+        "y": 180,
+        "wires": []
+    },
+    {
+        "id": "19c92a361fd6761c",
+        "type": "ui_template",
+        "z": "64de7ca89bd91501",
+        "group": "d146a53a4305fa82",
+        "name": "IPs Statiques",
+        "order": 3,
+        "width": "0",
+        "height": "0",
+        "format": "<div style=\"width:100%; min-height: {{msg.size}}rem;\">\n    <table style=\"width:100%;\">\n        <thead>\n            <tr>\n              <th>Hôte</th>\n              <th>IP</th>\n              <th>Adresse mac</th>\n              <th>Commentaire</th>\n            </tr>\n        </thead>\n      <tr ng-repeat = \"host in msg.payload.result\">\n        <td>{{host.hostname}}</td>\n        <td>{{host.ip}}</td>\n        <td>{{host.mac}}</td>\n        <td>{{host.comment}}</td>\n      </tr>\n    </table>\n</div>",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "x": 1050,
+        "y": 500,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "e0c0b08169bc122a",
+        "type": "debug",
+        "z": "64de7ca89bd91501",
+        "name": "",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload.result.length",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 950,
+        "y": 540,
+        "wires": []
+    },
+    {
+        "id": "9d79627bb39d4ecc",
+        "type": "function",
+        "z": "64de7ca89bd91501",
+        "name": "",
+        "func": "msg.size = msg.payload.result.length + 1\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 900,
+        "y": 500,
+        "wires": [
+            [
+                "19c92a361fd6761c"
+            ]
+        ]
+    },
+    {
+        "id": "22f47076fbdd683f",
+        "type": "http request",
+        "z": "64de7ca89bd91501",
+        "name": "",
+        "method": "GET",
+        "ret": "obj",
+        "paytoqs": "ignore",
+        "url": "http://mafreebox.freebox.fr/api/v8/dhcp/dynamic_lease/",
+        "tls": "",
+        "persist": false,
+        "proxy": "",
+        "authType": "",
+        "x": 490,
+        "y": 600,
+        "wires": [
+            [
+                "334465a5112528ea",
+                "5d03bfa3b069f867"
+            ]
+        ]
+    },
+    {
+        "id": "ee1371daa721b994",
+        "type": "inject",
+        "z": "64de7ca89bd91501",
+        "name": "IPs Dynamiques",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "5",
+        "crontab": "",
+        "once": true,
+        "onceDelay": "5",
+        "topic": "",
+        "payloadType": "date",
+        "x": 130,
+        "y": 600,
+        "wires": [
+            [
+                "e7cd6ba1b635e674"
+            ]
+        ]
+    },
+    {
+        "id": "334465a5112528ea",
+        "type": "debug",
+        "z": "64de7ca89bd91501",
+        "name": "",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 650,
+        "y": 600,
+        "wires": []
+    },
+    {
+        "id": "e7cd6ba1b635e674",
+        "type": "function",
+        "z": "64de7ca89bd91501",
+        "name": "set body",
+        "func": "msg = {};\nmsg.headers = {\n};\nmsg.headers['X-Fbx-App-Auth'] = global.get(\"session_token\");\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "msg.headers = {\n    'Content-Type':'application/json'\n    \n};\nmsg.headers['X-Fbx-App-Auth'] = global.get(\"session_token\");\nmsg.payload = {\n};\nreturn msg;",
+        "libs": [],
+        "x": 300,
+        "y": 600,
+        "wires": [
+            [
+                "22f47076fbdd683f"
+            ]
+        ]
+    },
+    {
+        "id": "5d03bfa3b069f867",
+        "type": "switch",
+        "z": "64de7ca89bd91501",
+        "name": "",
+        "property": "payload.success",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "else"
+            },
+            {
+                "t": "true"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 2,
+        "x": 650,
+        "y": 640,
+        "wires": [
+            [
+                "348f1fd0133eef3c"
+            ],
+            [
+                "6c9f5d319888399b",
+                "99cba7811bcfa4ed",
+                "5d7633d27cb12b87"
+            ]
+        ]
+    },
+    {
+        "id": "348f1fd0133eef3c",
+        "type": "link out",
+        "z": "64de7ca89bd91501",
+        "name": "success false",
+        "links": [
+            "37179428002096c8"
+        ],
+        "x": 795,
+        "y": 620,
+        "wires": []
+    },
+    {
+        "id": "6c9f5d319888399b",
+        "type": "debug",
+        "z": "64de7ca89bd91501",
+        "name": "",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload.result",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 930,
+        "y": 660,
+        "wires": []
+    },
+    {
+        "id": "6eacbe2b1ff2b316",
+        "type": "ui_template",
+        "z": "64de7ca89bd91501",
+        "group": "d146a53a4305fa82",
+        "name": "IPs Dynamiques",
+        "order": 3,
+        "width": "0",
+        "height": "0",
+        "format": "<div style=\"width:100%; min-height: {{msg.size}}rem;\">\n    <table style=\"width:100%;\">\n        <thead>\n            <tr>\n              <th>Hôte</th>\n              <th>IP</th>\n              <th>Adresse mac</th>\n              <th>Commentaire</th>\n            </tr>\n        </thead>\n      <tr ng-repeat = \"host in msg.payload.result\">\n        <td>{{host.hostname}}</td>\n        <td>{{host.ip}}</td>\n        <td>{{host.mac}}</td>\n        <td>{{host.comment}}</td>\n      </tr>\n    </table>\n</div>",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "x": 1060,
+        "y": 700,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "99cba7811bcfa4ed",
+        "type": "debug",
+        "z": "64de7ca89bd91501",
+        "name": "",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload.result.length",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 950,
+        "y": 740,
+        "wires": []
+    },
+    {
+        "id": "5d7633d27cb12b87",
+        "type": "function",
+        "z": "64de7ca89bd91501",
+        "name": "",
+        "func": "msg.size = msg.payload.result.length + 1\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 900,
+        "y": 700,
+        "wires": [
+            [
+                "6eacbe2b1ff2b316"
+            ]
+        ]
+    },
+    {
+        "id": "2616a958e7c66238",
+        "type": "http request",
+        "z": "3eb6e4b99502d2ee",
+        "name": "",
+        "method": "GET",
+        "ret": "obj",
+        "paytoqs": "ignore",
+        "url": "http://mafreebox.freebox.fr/api/v8/connection/",
+        "tls": "",
+        "persist": false,
+        "proxy": "",
+        "authType": "",
+        "x": 490,
+        "y": 40,
+        "wires": [
+            [
+                "29a61de24ea97a11",
+                "520cd7597df874bc"
+            ]
+        ]
+    },
+    {
+        "id": "a5affb2df1019d11",
+        "type": "inject",
+        "z": "3eb6e4b99502d2ee",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "1",
+        "crontab": "",
+        "once": true,
+        "onceDelay": "1",
+        "topic": "",
+        "payloadType": "date",
+        "x": 110,
+        "y": 40,
+        "wires": [
+            [
+                "e4f3f3949bda4b6a"
+            ]
+        ]
+    },
+    {
+        "id": "29a61de24ea97a11",
+        "type": "debug",
+        "z": "3eb6e4b99502d2ee",
+        "name": "",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 650,
+        "y": 40,
+        "wires": []
+    },
+    {
+        "id": "e4f3f3949bda4b6a",
+        "type": "function",
+        "z": "3eb6e4b99502d2ee",
+        "name": "set body",
+        "func": "msg = {};\nmsg.headers = {\n};\nmsg.headers['X-Fbx-App-Auth'] = global.get(\"session_token\");\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "msg.headers = {\n    'Content-Type':'application/json'\n    \n};\nmsg.headers['X-Fbx-App-Auth'] = global.get(\"session_token\");\nmsg.payload = {\n};\nreturn msg;",
+        "libs": [],
+        "x": 300,
+        "y": 40,
+        "wires": [
+            [
+                "2616a958e7c66238"
+            ]
+        ]
+    },
+    {
+        "id": "520cd7597df874bc",
+        "type": "switch",
+        "z": "3eb6e4b99502d2ee",
+        "name": "",
+        "property": "payload.success",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "else"
+            },
+            {
+                "t": "true"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 2,
+        "x": 650,
+        "y": 80,
+        "wires": [
+            [
+                "1bc6370c3c1c88f6"
+            ],
+            [
+                "5f3fbb8671381321",
+                "2927399fc10047e8",
+                "832fb7a6187ce2f2",
+                "ad690de336c8c405",
+                "8b113c35e84fe4ec",
+                "957010636f0c2d58",
+                "6cd738b801441b3a",
+                "311e5b2c30c17da6",
+                "183bd5522bb5e905",
+                "3aa594c6e3a83816",
+                "5edc006566a76099"
+            ]
+        ]
+    },
+    {
+        "id": "5f3fbb8671381321",
+        "type": "debug",
+        "z": "3eb6e4b99502d2ee",
+        "name": "",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload.result",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 890,
+        "y": 100,
+        "wires": []
+    },
+    {
+        "id": "1bc6370c3c1c88f6",
+        "type": "link out",
+        "z": "3eb6e4b99502d2ee",
+        "name": "success false",
+        "links": [
+            "37179428002096c8"
+        ],
+        "x": 795,
+        "y": 60,
+        "wires": []
+    },
+    {
+        "id": "34cdf25405950c3a",
+        "type": "ui_gauge",
+        "z": "3eb6e4b99502d2ee",
+        "name": "",
+        "group": "c75b373e6bdd7c45",
+        "order": 1,
+        "width": "4",
+        "height": "3",
+        "gtype": "gage",
+        "title": "Débit descendant",
+        "label": "{{msg.units}}",
+        "format": "{{msg.payload}}",
+        "min": "0",
+        "max": "10000",
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "x": 1050,
+        "y": 140,
+        "wires": []
+    },
+    {
+        "id": "2927399fc10047e8",
+        "type": "function",
+        "z": "3eb6e4b99502d2ee",
+        "name": "",
+        "func": "var max = (msg.payload.result.bandwidth_down/1000).toPrecision(3);\nvar data = (msg.payload.result.rate_down*8/1000).toPrecision(3);\nunits = \"kbps\"\nif(data>999){\n    data/=1000;\n    max/=1000;\n    units = \"Mbps\"\n}\nmsg = {\n    payload:data,\n    ui_control:{min:0,max:max},\n    units:units\n};\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 840,
+        "y": 140,
+        "wires": [
+            [
+                "34cdf25405950c3a"
+            ]
+        ]
+    },
+    {
+        "id": "57bc8564b5d8ffa3",
+        "type": "ui_gauge",
+        "z": "3eb6e4b99502d2ee",
+        "name": "",
+        "group": "c75b373e6bdd7c45",
+        "order": 3,
+        "width": "3",
+        "height": "3",
+        "gtype": "gage",
+        "title": "Débit montant",
+        "label": "{{msg.units}}",
+        "format": "{{msg.payload}}",
+        "min": "0",
+        "max": "10000",
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "x": 1040,
+        "y": 180,
+        "wires": []
+    },
+    {
+        "id": "832fb7a6187ce2f2",
+        "type": "function",
+        "z": "3eb6e4b99502d2ee",
+        "name": "",
+        "func": "var max = (msg.payload.result.bandwidth_up/1000).toPrecision(3);\nvar data = (msg.payload.result.rate_up*8/1000).toPrecision(3);\nunits = \"kbps\"\nif(data>999){\n    data/=1000;\n    max/=1000;\n    units = \"Mbps\"\n}\nmsg = {\n    payload:data,\n    ui_control:{min:0,max:max},\n    units:units\n};\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 840,
+        "y": 180,
+        "wires": [
+            [
+                "57bc8564b5d8ffa3"
+            ]
+        ]
+    },
+    {
+        "id": "c2ca36adc96c8ce6",
+        "type": "ui_text",
+        "z": "3eb6e4b99502d2ee",
+        "group": "2075d3b014cdbb5f",
+        "order": 4,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "État de la connexion",
+        "format": "<font color= {{msg.color}} > {{msg.payload}} </font>",
+        "layout": "row-spread",
+        "x": 1060,
+        "y": 220,
+        "wires": []
+    },
+    {
+        "id": "ad690de336c8c405",
+        "type": "function",
+        "z": "3eb6e4b99502d2ee",
+        "name": "Color Mapping",
+        "func": "switch (msg.payload.result.state) {\n\ncase \"going_up\" : \n    msg.color = \"yellow\";\n    msg.payload = \"initialisation ...\";\n    break;\ncase \"up\" : \n    msg.color = \"lime\";\n    msg.payload = \"active\";\n    break;\ncase \"going_down\" : \n    msg.color = \"orange\";\n    msg.payload = \"desactivation ...\";\n    break;\ncase \"down\" : \n    msg.color = \"red\";\n    msg.payload = \"désactivé\";\n    break;\ndefault : \n    msg.color = \"red\";\n    msg.payload = msg.payload.result.state;\n    break;\n}\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 860,
+        "y": 220,
+        "wires": [
+            [
+                "c2ca36adc96c8ce6"
+            ]
+        ]
+    },
+    {
+        "id": "e2b9f52850a4bc9c",
+        "type": "ui_text",
+        "z": "3eb6e4b99502d2ee",
+        "group": "2075d3b014cdbb5f",
+        "order": 4,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "Type de connexion",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "x": 1050,
+        "y": 260,
+        "wires": []
+    },
+    {
+        "id": "8b113c35e84fe4ec",
+        "type": "function",
+        "z": "3eb6e4b99502d2ee",
+        "name": "payload text",
+        "func": "switch (msg.payload.result.type) {\n\ncase \"ethernet\" : \n    msg.payload = \"FTTH/ethernet\";\n    break;\ncase \"rfc2684\" : \n    msg.payload = \"xDSL (dégroupé)\";\n    break;\ncase \"pppoatm\" : \n    msg.payload = \"xDSL\";\n    break;\ndefault : \n    msg.payload = msg.payload.result.type;\n    break;\n}\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 850,
+        "y": 260,
+        "wires": [
+            [
+                "e2b9f52850a4bc9c"
+            ]
+        ]
+    },
+    {
+        "id": "16e671aeeafca11b",
+        "type": "ui_text",
+        "z": "3eb6e4b99502d2ee",
+        "group": "2075d3b014cdbb5f",
+        "order": 4,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "Media de connexion",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "x": 1060,
+        "y": 300,
+        "wires": []
+    },
+    {
+        "id": "957010636f0c2d58",
+        "type": "function",
+        "z": "3eb6e4b99502d2ee",
+        "name": "payload text",
+        "func": "switch (msg.payload.result.media) {\n\ncase \"ftth\" : \n    msg.payload = \"FTTH\";\n    break;\ncase \"ethernet\" : \n    msg.payload = \"ethernet\";\n    break;\ncase \"xdsl\" : \n    msg.payload = \"xDSL\";\n    break;\ndefault : \n    msg.payload = msg.payload.result.media;\n    break;\n}\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 850,
+        "y": 300,
+        "wires": [
+            [
+                "16e671aeeafca11b"
+            ]
+        ]
+    },
+    {
+        "id": "6cd738b801441b3a",
+        "type": "ui_text",
+        "z": "3eb6e4b99502d2ee",
+        "group": "2075d3b014cdbb5f",
+        "order": 4,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "IPv4 Publique",
+        "format": "{{msg.payload.result.ipv4}}",
+        "layout": "row-spread",
+        "x": 860,
+        "y": 340,
+        "wires": []
+    },
+    {
+        "id": "311e5b2c30c17da6",
+        "type": "ui_text",
+        "z": "3eb6e4b99502d2ee",
+        "group": "2075d3b014cdbb5f",
+        "order": 4,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "IPv6 Publique",
+        "format": "{{msg.payload.result.ipv6}}",
+        "layout": "row-spread",
+        "x": 860,
+        "y": 380,
+        "wires": []
+    },
+    {
+        "id": "183bd5522bb5e905",
+        "type": "ui_text",
+        "z": "3eb6e4b99502d2ee",
+        "group": "2075d3b014cdbb5f",
+        "order": 4,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "Plage de ports IPv4",
+        "format": "{{msg.payload.result.ipv4_port_range}}",
+        "layout": "row-spread",
+        "x": 870,
+        "y": 420,
+        "wires": []
+    },
+    {
+        "id": "964ce3e83e06511e",
+        "type": "ui_text",
+        "z": "3eb6e4b99502d2ee",
+        "group": "c75b373e6bdd7c45",
+        "order": 5,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "Émis",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "x": 1010,
+        "y": 500,
+        "wires": []
+    },
+    {
+        "id": "84909b804577703c",
+        "type": "ui_text",
+        "z": "3eb6e4b99502d2ee",
+        "group": "c75b373e6bdd7c45",
+        "order": 4,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "Reçu",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "x": 1010,
+        "y": 460,
+        "wires": []
+    },
+    {
+        "id": "3aa594c6e3a83816",
+        "type": "function",
+        "z": "3eb6e4b99502d2ee",
+        "name": "",
+        "func": "var data = (msg.payload.result.bytes_down/1000).toPrecision(3);\nunits = \"ko\"\nif(data>1000){\n    data/=1000;\n    units = \"Mo\"\n    if(data>1000){\n        data/=1000;\n        units = \"Go\"\n        if(data>1000){\n        data/=1000;\n        units = \"To\"\n        }\n    }\n}\nmsg = {\n    payload:data + units\n};\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 840,
+        "y": 460,
+        "wires": [
+            [
+                "84909b804577703c"
+            ]
+        ]
+    },
+    {
+        "id": "5edc006566a76099",
+        "type": "function",
+        "z": "3eb6e4b99502d2ee",
+        "name": "",
+        "func": "var data = (msg.payload.result.bytes_up/1000).toPrecision(3);\nunits = \"ko\"\nif(data>1000){\n    data/=1000;\n    units = \"Mo\"\n    if(data>1000){\n        data/=1000;\n        units = \"Go\"\n        if(data>1000){\n        data/=1000;\n        units = \"To\"\n        }\n    }\n}\nmsg = {\n    payload:data + units\n};\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 840,
+        "y": 500,
+        "wires": [
+            [
+                "964ce3e83e06511e"
+            ]
+        ]
+    },
+    {
+        "id": "9a6d5c3092d79ce0",
+        "type": "http request",
+        "z": "2e9cc71ef5c75b73",
+        "name": "",
+        "method": "GET",
+        "ret": "obj",
+        "paytoqs": "ignore",
+        "url": "http://mafreebox.freebox.fr/api/v8/connection/xdsl/",
+        "tls": "",
+        "persist": false,
+        "proxy": "",
+        "authType": "",
+        "x": 490,
+        "y": 40,
+        "wires": [
+            [
+                "62ddd538ca9a5f7a",
+                "13825a2960197ccf"
+            ]
+        ]
+    },
+    {
+        "id": "d157032cf3e124c1",
+        "type": "inject",
+        "z": "2e9cc71ef5c75b73",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "1",
+        "crontab": "",
+        "once": true,
+        "onceDelay": "1",
+        "topic": "",
+        "payloadType": "date",
+        "x": 110,
+        "y": 40,
+        "wires": [
+            [
+                "1062d5e5c53d5008"
+            ]
+        ]
+    },
+    {
+        "id": "62ddd538ca9a5f7a",
+        "type": "debug",
+        "z": "2e9cc71ef5c75b73",
+        "name": "",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": true,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "payload",
+        "statusType": "auto",
+        "x": 650,
+        "y": 40,
+        "wires": []
+    },
+    {
+        "id": "1062d5e5c53d5008",
+        "type": "function",
+        "z": "2e9cc71ef5c75b73",
+        "name": "set body",
+        "func": "msg = {};\nmsg.headers = {\n};\nmsg.headers['X-Fbx-App-Auth'] = global.get(\"session_token\");\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "msg.headers = {\n    'Content-Type':'application/json'\n    \n};\nmsg.headers['X-Fbx-App-Auth'] = global.get(\"session_token\");\nmsg.payload = {\n};\nreturn msg;",
+        "libs": [],
+        "x": 300,
+        "y": 40,
+        "wires": [
+            [
+                "9a6d5c3092d79ce0"
+            ]
+        ]
+    },
+    {
+        "id": "13825a2960197ccf",
+        "type": "switch",
+        "z": "2e9cc71ef5c75b73",
+        "name": "",
+        "property": "payload.success",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "else"
+            },
+            {
+                "t": "true"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 2,
+        "x": 650,
+        "y": 100,
+        "wires": [
+            [
+                "3710a8bbc6ca0c37"
+            ],
+            [
+                "dc57b4b057a24425",
+                "45ac343b33023273",
+                "5036e9a1125a233e",
+                "4a6e490e4448405d"
+            ]
+        ]
+    },
+    {
+        "id": "3710a8bbc6ca0c37",
+        "type": "link out",
+        "z": "2e9cc71ef5c75b73",
+        "name": "success false",
+        "links": [
+            "37179428002096c8"
+        ],
+        "x": 815,
+        "y": 60,
+        "wires": []
+    },
+    {
+        "id": "dc57b4b057a24425",
+        "type": "debug",
+        "z": "2e9cc71ef5c75b73",
+        "name": "",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": true,
+        "complete": "payload.result",
+        "targetType": "msg",
+        "statusVal": "payload.result",
+        "statusType": "auto",
+        "x": 890,
+        "y": 100,
+        "wires": []
+    },
+    {
+        "id": "45ac343b33023273",
+        "type": "function",
+        "z": "2e9cc71ef5c75b73",
+        "name": "Color mapping",
+        "func": "switch (msg.payload.result.status.status) {\n\ncase \"down\" : \n    msg.color = \"red\";\n    msg.payload = \"désynchronisé\";\n    break;\ncase \"training\" : \n    msg.color = \"orange\";\n    msg.payload = \"synchronisation ... 1/4\";\n    break;\ncase \"started\" : \n    msg.color = \"orange\";\n    msg.payload = \"synchronisation ... 2/4\";\n    break;\ncase \"chan_analysis\" : \n    msg.color = \"orange\";\n    msg.payload = \"synchronisation ... 3/4\";\n    break;\ncase \"msg_exchange\" : \n    msg.color = \"yellow\";\n    msg.payload = \"synchronisation ... 4/4\";\n    break;\ncase \"showtime\" : \n    msg.color = \"lime\";\n    msg.payload = \"Synchronisé\";\n    break;\ncase \"disabled\" : \n    msg.color = \"red\";\n    msg.payload = \"désactivé\";\n    break;\ndefault : \n    msg.color = \"red\";\n    msg.payload = msg.payload.result.status.status;\n    break;\n}\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 880,
+        "y": 160,
+        "wires": [
+            [
+                "67e06268014b37e9"
+            ]
+        ]
+    },
+    {
+        "id": "67e06268014b37e9",
+        "type": "ui_text",
+        "z": "2e9cc71ef5c75b73",
+        "group": "4676cb363a2cda75",
+        "order": 4,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "Statut xDSL",
+        "format": "<font color= {{msg.color}} > {{msg.payload}} </font>",
+        "layout": "row-spread",
+        "x": 1050,
+        "y": 160,
+        "wires": []
+    },
+    {
+        "id": "5036e9a1125a233e",
+        "type": "function",
+        "z": "2e9cc71ef5c75b73",
+        "name": "payload text",
+        "func": "switch (msg.payload.result.status.protocol) {\n\ncase \"t1413\" : \n    msg.payload = \"T1.413\";\n    break;\ncase \"adsl1_a\" : \n    msg.payload = \"ADSL\";\n    break;\ncase \"adsl2_a\" : \n    msg.payload = \"ADSL2\";\n    break;\ncase \"adsl2plus_a\" : \n    msg.payload = \"ADSL2+\";\n    break;\ncase \"readsl2\" : \n    msg.payload = \"ReachDSL\";\n    break;\ncase \"adsl2_m\" : \n    msg.payload = \"ADSL2 annexe M\";\n    break;\ncase \"adsl2plus_m\" : \n    msg.payload = \"ADSL2+ annexe M\";\n    break;\ncase \"unknown\" : \n    msg.payload = \"Inconnu\";\n    break;\ndefault : \n    msg.color = \"red\";\n    msg.payload = msg.payload.result.status.protocol;\n    break;\n}\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 870,
+        "y": 200,
+        "wires": [
+            [
+                "23114b99053efc2a"
+            ]
+        ]
+    },
+    {
+        "id": "23114b99053efc2a",
+        "type": "ui_text",
+        "z": "2e9cc71ef5c75b73",
+        "group": "4676cb363a2cda75",
+        "order": 4,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "Protocole",
+        "format": "<font color= {{msg.color}} > {{msg.payload}} </font>",
+        "layout": "row-spread",
+        "x": 1040,
+        "y": 200,
+        "wires": []
+    },
+    {
+        "id": "4a6e490e4448405d",
+        "type": "function",
+        "z": "2e9cc71ef5c75b73",
+        "name": "payload text",
+        "func": "switch (msg.payload.result.status.modulation) {\n\ncase \"adsl\" : \n    msg.payload = \"ADSL\";\n    break;\ncase \"vdsl\" : \n    msg.payload = \"VDSL\";\n    break;\ndefault : \n    msg.color = \"red\";\n    msg.payload = msg.payload.result.status.modulation;\n    break;\n}\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 870,
+        "y": 240,
+        "wires": [
+            [
+                "ad24bc004399080d"
+            ]
+        ]
+    },
+    {
+        "id": "ad24bc004399080d",
+        "type": "ui_text",
+        "z": "2e9cc71ef5c75b73",
+        "group": "4676cb363a2cda75",
+        "order": 4,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "Modulation",
+        "format": "<font color= {{msg.color}} > {{msg.payload}} </font>",
+        "layout": "row-spread",
+        "x": 1050,
+        "y": 240,
+        "wires": []
+    },
+    {
+        "id": "845850beab243563",
+        "type": "ui_toast",
+        "z": "902ff135d5a095e1",
+        "position": "dialog",
+        "displayTime": "3",
+        "highlight": "",
+        "sendall": true,
+        "outputs": 1,
+        "ok": "OK",
+        "cancel": "Annuler",
+        "raw": false,
+        "topic": "Demander un nouveau Token",
+        "name": "",
+        "x": 1470,
+        "y": 340,
+        "wires": [
+            [
+                "d03860648f73f459"
+            ]
+        ]
+    },
+    {
+        "id": "e29d311342a7f748",
+        "type": "change",
+        "z": "902ff135d5a095e1",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "La freebox n'a pas autorisé l'application.  Cliquez sur OK, et acceptez la demande sur affichée sur l'écran de la Freebox.",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1300,
+        "y": 340,
+        "wires": [
+            [
+                "845850beab243563"
+            ]
+        ]
+    },
+    {
+        "id": "d03860648f73f459",
+        "type": "switch",
+        "z": "902ff135d5a095e1",
+        "name": "",
+        "property": "payload",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "OK",
+                "vt": "str"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 1,
+        "x": 1610,
+        "y": 340,
+        "wires": [
+            [
+                "68697e2e1a746549"
+            ]
+        ]
+    },
+    {
+        "id": "68697e2e1a746549",
+        "type": "link out",
+        "z": "902ff135d5a095e1",
+        "name": "new token",
+        "links": [
+            "5e6bbf6de05ac935"
+        ],
+        "x": 1695,
+        "y": 340,
+        "wires": []
+    },
+    {
+        "id": "5e6bbf6de05ac935",
+        "type": "link in",
+        "z": "902ff135d5a095e1",
+        "name": "New Token",
+        "links": [
+            "68697e2e1a746549"
+        ],
+        "x": 535,
+        "y": 100,
+        "wires": [
+            [
+                "cb1dfcde.fd153"
+            ]
+        ]
+    },
+    {
+        "id": "4ab9d5f922c5db0b",
+        "type": "catch",
+        "z": "902ff135d5a095e1",
+        "name": "",
+        "scope": [
+            "1fc1be830456f3ce"
+        ],
+        "uncaught": false,
+        "x": 1130,
+        "y": 360,
+        "wires": [
+            [
+                "e29d311342a7f748"
+            ]
+        ]
+    },
+    {
+        "id": "f357cda7bd73b171",
+        "type": "change",
+        "z": "902ff135d5a095e1",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "",
+                "tot": "date"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 360,
+        "y": 420,
+        "wires": [
+            [
+                "5025e879b67e61db"
+            ]
+        ]
+    },
+    {
+        "id": "5025e879b67e61db",
+        "type": "function",
+        "z": "902ff135d5a095e1",
+        "name": "no spam",
+        "func": "dialog_delay = flow.get(\"dialog_delay\");\nif(dialog_delay){\n    if( msg.payload-dialog_delay < 20000){\n        return null;\n}}\nflow.set(\"dialog_delay\",msg.payload);\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 520,
+        "y": 420,
+        "wires": [
+            [
+                "330b701296516180"
+            ]
+        ]
+    }
+]
