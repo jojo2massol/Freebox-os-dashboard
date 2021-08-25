@@ -1,5 +1,7 @@
 # Freebox os dashboard
 Node-RED flows to manage your Freebox with a Raspberry Pi
+![Freebox os Dashboard](https://user-images.githubusercontent.com/54369031/130830690-dce667fe-11a1-4af0-b936-cefbe5593a22.png)
+
 ## Language
 French only
 ## Install
