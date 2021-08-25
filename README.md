@@ -8,7 +8,7 @@ Node RED installation :
 bash <(curl -sL https://raw.githubusercontent.com/node-red/linux-installers/master/deb/update-nodejs-and-nodered)
 ```
 
-Palette needed :
+### Palette needed :
 ```
 node-red-contrib-crypto-js-dynamic
 ```
@@ -21,7 +21,7 @@ cd ~/.nodered
 npm install node-red-contrib-crypto-js-dynamic
 npm install node-red-dashboard
 ```
-# Features
+## Features
 - Reboot button
 - Uplink and Downlink gauge speed
 - Upload and Download chart
