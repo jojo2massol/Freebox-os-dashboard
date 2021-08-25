@@ -21,7 +21,7 @@ cd ~/.nodered
 npm install node-red-contrib-crypto-js-dynamic
 npm install node-red-dashboard
 ```
-#Features
+# Features
 - Reboot button
 - Uplink and Downlink gauge speed
 - Upload and Download chart
