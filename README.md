@@ -9,12 +9,14 @@ bash <(curl -sL https://raw.githubusercontent.com/node-red/linux-installers/mast
 ```
 
 ### Palette needed :
-```
+`
 node-red-contrib-crypto-js-dynamic
-```
-```
+`
+\
+`
 node-red-dashboard
-```
+`
+
 Command line installation :
 ```
 cd ~/.nodered
@@ -33,3 +35,5 @@ npm install node-red-dashboard
 - Temperatures and fan speed
 - DHCP main informations
 - Static and dynamic IP - Host tables
+- Connexion history
+- Log of all connexions losts, with a monthly bar chart of all interruptions
